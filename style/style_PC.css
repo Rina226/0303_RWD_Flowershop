@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/*리셋 시작*/
+* {
+    color: #000; /*주조색*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+
+ul {list-style: none;}
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*배경이미지를 100퍼센트로 채우려면 백그라운드 사이즈 100% 100%;, 그리고 백그라운드 어태치먼트 픽스드 두 가지 같이 써야 함*/
+}
+/*리셋 시작*/
+
+
+/*가이드라인*/
+/*div#wrap          {border: 1px solid #000;}*/
+/*header#header  {border: 1px solid #000;}*/
+/*div#header       {border: 1px solid #f00;}*/
+/*nav#gnb          {border: 1px solid #00f;}*/
+/*main#main       {border: 1px solid #000;}*/
+/*aside#aside       {border: 1px solid #000;}*/
+footer#footer    {border: 1px solid #ddd;}
+/*가이드라인*/
+
+
+/*div#wrap 시작*/
+div#wrap {
+    width: 1260px;
+    height: 891px;
+    margin: 0 auto;
+}
+/*div#wrap 끝*/
+
+
+/*header#header 시작*/
+header#header {
+    height: 248px;
+}
+
+div#header {
+    height: 195px;
+    background-color: #ebdaac;
+}
+
+nav#gnb {
+    height: 53px;
+    background-color: #c51a3a;
+    padding-left: 40px;
+}
+
+nav#gnb li a {
+    font-weight: bold;
+    color: #a7d9c0;
+    float: left;
+    /*border: 1px solid #000;*/
+    padding: 0px 12px;
+    line-height: 53px;
+}
+
+nav#gnb li a.flower {
+    background-color: #fff;
+    /*border: 1px solid #fff;*/
+    border-radius: 10px 10px 0px 0px;
+    color: #c51a3a;
+}
+/*header#header 시작*/
+
+
+/*main#main 시작*/
+main#main {
+    background-color: #fff;
+    height: 362px;
+
+    position: relative;
+}
+
+#main img {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+#main div#bbs {
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+
+#main div#bbs h3.red {
+    color: #f00;
+}
+/*main#main 끝*/
+
+
+/*aside#aside 시작*/
+aside#aside {
+    background-color: #fff;
+    height: 228px;
+
+}
+
+#aside div#call {
+    width: 334px;
+    height: 228px;
+    text-align: left;
+    padding: 20px 25px;
+    /*border: 1px solid #000;*/
+    float: left;
+}
+
+#aside div#call ul {list-style: square;}
+
+#aside div#call ul h3 {
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 7px;
+    color: #fff;
+    background: #e76c6e;
+    margin-bottom: 20px;
+}
+
+#aside div#call ul li {
+    width: 334px;
+    /*border: 1px solid #000;*/
+    font-size: 15px;
+    padding-left: 15px;
+    list-style-position: inside;
+    /*display: block;*/
+}
+
+aside#aside div#img {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    /*border: 1px solid #000;*/
+
+}
+
+aside#aside>div#img>div#pink {
+    width: 292px;
+    height: 203px;
+    border: 1px dotted #000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    position: relative;
+
+    border: 1px solid #000;
+}
+
+aside#aside>div#img>div#pink img {
+    width: 200px;
+}
+
+aside#aside>div#img>div#red {
+    width: 292px;
+    height: 203px;
+    border: 1px dotted #000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+aside#aside>div#img>div#red img {
+    width: 150px;
+}
+
+aside#aside>div#img>div#white {
+    width: 292px;
+    height: 203px;
+    border: 1px dotted #000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+}
+
+aside#aside>div#img>div#white img {
+    width: 170px;
+}
+
+aside#aside>div#img div.message {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #000;
+    width: 100%;
+
+    position: absolute;
+}
+
+aside#aside>div#img>div#message h3 {
+    color: #8b347b;
+}
+
+aside#aside>div#img>div#message span {
+    color: #4c55ff;
+}
+
+/*aside#aside 끝*/
+
+
+/*footer#footer 시작*/
+footer#footer {
+    background-color: #fff;
+    height: 53px;
+
+}
+
+footer#footer ul li a {
+    float: left;
+    font-size: 13px;
+    padding: 0px 12px;
+    padding-left: 40px;
+    line-height: 53px;
+}
+
+footer#footer p {
+    line-height: 53px;
+    text-align: right;
+    padding-right: 5px;
+}
+/*footer#footer 끝*/
+
+
+
+

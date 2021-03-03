@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*리셋 시작*/
+* {
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+
+ul {list-style: none;}
+/*리셋 시작*/
+
+
+/*div#wrap 시작*/
+div#wrap {
+
+}
+/*div#wrap 끝*/
+
+
+/*header#header 시작*/
+header#header {
+
+}
+/*header#header 시작*/
+
+
+/*main#main 시작*/
+main#main {
+
+}
+/*main#main 끝*/
+
+
+/*footer#footer 시작*/
+footer#footer {
+
+}
+/*footer#footer 끝*/
+
+
+
+
